@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+
+ul {
+	 
+	font-size: 30px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 100px;
+	padding-left: 80px;
+  text-decoration: none;
+	
+
+
+
+  background-color:black;
+}
+
+a:hover{
+	color:skyblue;
+	background-color:grey;
+}
+
+
+.title{
+	margin-top:20px;
+	margin-left:6px;
+	font-size:100px;
+	font-weight: 400;
+	background-color:grey;
+}
+
+img { 
+  width: 100%; 
+}
+
+.son{
+	margin-top:300px;
+	margin-left:0px;
+	font-size:100px;
+	font-weight: 400;
+	background-color:white;
+}
+
+.pp{
+	margin-top:50px;
+	font-size:20px;
+	font-weight: 400;
+	margin-left: 00px;
+}
+
+.tip{
+	margin-top:100px;
+	margin-left:0px;
+	font-size:100px;
+	font-weight: 400;
+	background-color:white;
+	}
+	
+	.sol{
+	margin-top:100px;
+	margin-left:0px;
+	font-size:100px;
+	font-weight: 400;
+	background-color:white;
+		}
+
+.cau{
+	margin-top:100px;
+	margin-left:0px;
+	font-size:100px;
+	font-weight: 400;
+	background-color:white;
+		}
+.href{
+	margin-top:40px;
+	font-size:20px;
+	font-weight: 400;
+	margin-left:100px;
+	
+}
+
+.imge{
+	margin-top:40px;
+	font-size:20px;
+	font-weight: 400;
+	margin-left:100px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 55%;
+  margin-left: 150px;
+  padding:54px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align:center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+	
+	
